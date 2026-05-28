@@ -36,8 +36,8 @@ function validate(subject, knowledge, aiOutput) {
   }
 
   if (knowledge.word !== undefined) {
-    // 英语类 — label 必须包含正确单词
-    if (!correctOpt.label.includes(knowledge.word)) {
+    // 英语类 — label 必须包含正确单词（不区分大小写）
+    if (!correctOpt.label.toLowerCase().includes(knowledge.word.toLowerCase())) {
       return { ok: false, reason: `WORD_MISMATCH: expected ${knowledge.word}` }
     }
   }
