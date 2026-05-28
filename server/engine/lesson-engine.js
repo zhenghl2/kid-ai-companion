@@ -20,6 +20,8 @@ function plan(context) {
 
   // 过滤：不与最近学过的混淆
   const recents = recentIds || []
+  const recentSet = new Set(recents.slice(-10))  // 最近 10 个不再出现
+  pool = pool.filter(item => !recentSet.has(item.id))
   pool = pool.filter(item => !knowledgeDeps.getRecentlyConfused(recents, item.id))
 
   // 按状态分组

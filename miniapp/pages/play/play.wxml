@@ -4,9 +4,7 @@
   <view class="play-header">
     <qiuqiu mood="{{qiuqiuMood}}" size="sm" anim="{{qiuqiuAnim}}"/>
     <view class="progress-wrap">
-      <view class="progress-bar">
-        <view class="progress-fill" style="width:{{progress}}%"></view>
-      </view>
+      <view class="progress-bar"><view class="progress-fill" style="width:{{progress}}%"></view></view>
       <text class="progress-text">{{current}}/{{total}}</text>
     </view>
     <view class="exit-btn" bindtap="confirmExit">✕</view>
@@ -21,25 +19,31 @@
     </view>
   </block>
 
-  <!-- 题目区域 -->
-  <view class="story-card card fade-in" wx:if="{{!finished}}">
-    <view class="story-text">{{story}}</view>
-    <view class="tts-replay" bindtap="replayTTS">🔊 再读一遍</view>
+  <!-- 教学环节 -->
+  <view class="teach-card card fade-in" wx:if="{{phase === 'teach'}}">
+    <view class="teach-emoji">{{teachEmoji}}</view>
+    <view class="teach-main">{{teachMain}}</view>
+    <view class="teach-sub" wx:if="{{teachSub}}">{{teachSub}}</view>
+    <view class="teach-hint">🔊 球球正在读给你听...</view>
   </view>
 
-  <!-- 选项 -->
-  <view class="options-grid" wx:if="{{!finished && showingOptions}}">
-    <view class="option-btn {{item.state}}" wx:for="{{options}}" wx:key="id"
-      bindtap="selectOption" data-index="{{index}}">
-      <view class="option-label">{{item.label}}</view>
+  <!-- 答题环节 -->
+  <block wx:if="{{phase === 'quiz'}}">
+    <view class="story-card card fade-in">
+      <view class="story-text">{{story}}</view>
+      <view class="tts-replay" bindtap="replayTTS">🔊 再读一遍</view>
     </view>
-  </view>
+    <view class="options-grid">
+      <view class="option-btn {{item.state}}" wx:for="{{options}}" wx:key="id"
+        bindtap="selectOption" data-index="{{index}}">
+        <view class="option-label">{{item.label}}</view>
+      </view>
+    </view>
+  </block>
 
-  <!-- 反馈区域 -->
+  <!-- 反馈 -->
   <view class="feedback-area" wx:if="{{feedbackText}}">
-    <view class="feedback-text {{feedbackType === 'correct' ? 'correct' : 'gentle'}}">
-      {{feedbackText}}
-    </view>
+    <view class="feedback-text {{feedbackType === 'correct' ? 'correct' : 'gentle'}}">{{feedbackText}}</view>
     <qiuqiu mood="{{feedbackType === 'correct' ? 'happy' : 'wink'}}" size="sm" anim="jump"/>
   </view>
 
@@ -49,7 +53,7 @@
       <view class="finish-icon">🎉</view>
       <view class="modal-title">太棒了！</view>
       <view class="finish-stars">⭐ × {{score}} / {{total}}</view>
-      <view class="finish-msg">小恐龙安全到家啦！</view>
+      <view class="finish-msg">今天学会了{{learnedCount}}个新知识！</view>
       <button class="btn btn-primary" bindtap="goHome" style="margin-top:24rpx">明天继续哦～</button>
       <button class="btn btn-ghost btn-sm" bindtap="goReplay" style="margin-top:12rpx">看看今天的冒险故事</button>
     </view>

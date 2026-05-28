@@ -29,11 +29,15 @@ async function generate(context) {
   const { subject, theme, childState } = context
   const level = childState?.level || 1
 
-  // 1. 选知识
-  const pool = knowledgeGraph.getBySubjectAndTheme(subject, theme)
-  if (pool.length === 0) {
-    return fallbackQuestion(subject)
-  }
+  // 1. 选知识 — 排除最近 10 个已用
+  let pool = knowledgeGraph.getBySubjectAndTheme(subject, theme)
+  if (pool.length === 0) pool = knowledgeGraph.getFallbackItems(subject, theme)
+
+  const recents = childState?.recentIds || []
+  const recentSet = new Set(recents.slice(-10))
+  pool = pool.filter(item => !recentSet.has(item.id))
+  if (pool.length === 0) pool = knowledgeGraph.getFallbackItems(subject, theme)  // 全被排除则回退
+
   const knowledge = pool[Math.floor(Math.random() * pool.length)]
 
   // 2. 查缓存
@@ -56,6 +60,8 @@ async function generate(context) {
       const parsed = JSON.parse(result.content)
       const safe = safetyLayer.validate(subject, knowledge, parsed)
       if (safe.ok) {
+        // 后处理：确保 story 包含明确提问
+        parsed.story = ensureQuestion(parsed.story, knowledge)
         // 替换鼓励语为本地模板
         parsed.correctFeedback = feedbackTemplates.getCorrectFeedback(theme)
         parsed.gentleNudge = feedbackTemplates.getGentleNudge()
@@ -81,6 +87,7 @@ async function generate(context) {
         const parsed = JSON.parse(retry.content)
         const safe = safetyLayer.validate(subject, knowledge, parsed)
         if (safe.ok) {
+          parsed.story = ensureQuestion(parsed.story, knowledge)
           parsed.correctFeedback = feedbackTemplates.getCorrectFeedback(theme)
           parsed.gentleNudge = feedbackTemplates.getGentleNudge()
           parsed.knowledgeId = knowledge.id
@@ -195,6 +202,25 @@ function getDistractors(knowledge) {
     return result
   }
   return ['2','4','5']
+}
+
+function ensureQuestion(story, knowledge) {
+  // 如果已有问句（含"哪个"/"几"/"多少"），直接返回
+  if (/[哪个几多少]/.test(story) && /[？?]/.test(story)) return story
+
+  // 加停顿分隔
+  const sep = /[。！？，]$/.test(story) ? '' : '，'
+
+  let q = ''
+  if (knowledge.char) q = `${sep}哪个是「${knowledge.char}」？`
+  else if (knowledge.word) q = `${sep}哪个是 ${knowledge.word}？`
+  else if (knowledge.a !== undefined) {
+    const op = knowledge.id.includes('sub') ? '还剩' : '一共'
+    q = `${sep}${op}几个？`
+  } else if (knowledge.objects !== undefined) q = `${sep}一共有几个？`
+  else q = `${sep}答案是？`
+
+  return story + q
 }
 
 module.exports = { generate, generateStory, generateSummary }
