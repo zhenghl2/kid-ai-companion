@@ -1,8 +1,8 @@
 Page({
   data: {
-    childName: '',
-    birthday: '',
-    ageLabel: '',
+    childName: 'CoCo',
+    birthday: '2021-12-30',
+    ageLabel: '4岁 (中班)',
     today: '',
   },
 

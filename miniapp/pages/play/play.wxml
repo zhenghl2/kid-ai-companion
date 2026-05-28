@@ -24,6 +24,7 @@
   <!-- 题目区域 -->
   <view class="story-card card fade-in" wx:if="{{!finished}}">
     <view class="story-text">{{story}}</view>
+    <view class="tts-replay" bindtap="replayTTS">🔊 再读一遍</view>
   </view>
 
   <!-- 选项 -->

@@ -49,12 +49,15 @@ Page({
       that.setData({
         story: data.story || '准备好了吗？',
         options: data.options.map(function(o, i) { return { id:i, label:o.label, correct:o.correct, state:'' } }),
-        correctFeedback: data.correctFeedback || '对啦！⭐',
+        correctFeedback: data.correctFeedback || '对啦！',
         gentleNudge: data.gentleNudge || '差一点点～',
         answered: false,
         showingOptions: false,
         qiuqiuMood: 'happy',
       })
+
+      // 自动朗读题目
+      that.playTTS(data.story)
 
       // 固定节奏：3s 后显示选项
       setTimeout(function() { that.setData({ showingOptions: true }) }, 3000)
@@ -164,4 +167,22 @@ Page({
 
   goHome: function() { wx.switchTab({ url: '/pages/today/today' }) },
   goReplay: function() { wx.navigateTo({ url: '/pages/replay/replay' }) },
+
+  // 语音朗读
+  playTTS: function(text) {
+    if (!text) return
+    if (this.ttsAudio) { this.ttsAudio.destroy() }
+    var audio = wx.createInnerAudioContext()
+    audio.src = 'http://39.105.133.219/growth/api/tts?text=' + encodeURIComponent(text)
+    audio.play()
+    this.ttsAudio = audio
+  },
+
+  replayTTS: function() {
+    this.playTTS(this.data.story)
+  },
+
+  onUnload: function() {
+    if (this.ttsAudio) { this.ttsAudio.destroy() }
+  },
 })

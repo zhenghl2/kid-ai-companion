@@ -259,6 +259,38 @@ app.post('/growth/api/summary', async (req, res) => {
   })
 })
 
+// ===== TTS 语音合成 =====
+const { execSync } = require('child_process')
+const crypto = require('crypto')
+const ttsCacheDir = require('path').join(__dirname, 'db', 'tts_cache')
+require('fs').mkdirSync(ttsCacheDir, { recursive: true })
+
+app.get('/growth/api/tts', (req, res) => {
+  const text = req.query.text || ''
+  if (!text || text.length > 200) return res.status(400).json({ error: 'Invalid text' })
+
+  const hash = crypto.createHash('md5').update(text).digest('hex')
+  const cachePath = require('path').join(ttsCacheDir, hash + '.mp3')
+
+  // 查缓存
+  if (require('fs').existsSync(cachePath)) {
+    res.set('Content-Type', 'audio/mpeg')
+    return res.sendFile(cachePath)
+  }
+
+  // 生成 TTS
+  try {
+    execSync(`edge-tts --voice zh-CN-XiaoxiaoNeural --text "${text.replace(/"/g,'\\"')}" --write-media "${cachePath}" 2>/dev/null`, { timeout: 8000 })
+    if (require('fs').existsSync(cachePath)) {
+      res.set('Content-Type', 'audio/mpeg')
+      return res.sendFile(cachePath)
+    }
+  } catch (e) {
+    console.error('[TTS] Error:', e.message)
+  }
+  res.status(500).json({ error: 'TTS failed' })
+})
+
 // ===== 启动 =====
 app.listen(PORT, () => {
   console.log(`[Growth] Server running on port ${PORT}`)
