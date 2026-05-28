@@ -1,0 +1,38 @@
+<!-- pages/parent/parent.wxml -->
+<view class="container">
+  <view class="card">
+    <view class="section-title">📊 今日学习</view>
+    <view class="stat-row">
+      <view class="stat-item">
+        <view class="stat-num">{{todayStats.questions}}</view>
+        <view class="stat-label">答题数</view>
+      </view>
+      <view class="stat-item">
+        <view class="stat-num">{{todayStats.correct}}</view>
+        <view class="stat-label">答对数</view>
+      </view>
+      <view class="stat-item">
+        <view class="stat-num">{{todayStats.minutes}}分</view>
+        <view class="stat-label">时长</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="section-title">⚙️ 设置</view>
+    <view class="setting-row">
+      <text>每日时长上限</text>
+      <picker mode="selector" range="{{timeOptions}}" value="{{timeIndex}}" bindchange="onTimeChange">
+        <text class="setting-value">{{timeOptions[timeIndex]}}分钟</text>
+      </picker>
+    </view>
+    <view class="setting-row">
+      <text>护眼模式</text>
+      <switch checked="{{eyeCare}}" bindchange="onEyeCareChange"/>
+    </view>
+  </view>
+
+  <button class="btn btn-ghost" bindtap="goOnboard" style="margin-top:24rpx">
+    重新设置宝贝信息
+  </button>
+</view>

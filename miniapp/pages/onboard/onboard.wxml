@@ -1,0 +1,26 @@
+<!-- pages/onboard/onboard.wxml -->
+<view class="container onboard-page">
+  <view class="onboard-header fade-in">
+    <view class="onboard-icon">🐼</view>
+    <view class="onboard-title">你好！我是球球！</view>
+    <view class="onboard-sub">你叫什么名字呀？</view>
+  </view>
+
+  <view class="card fade-in">
+    <view class="form-group">
+      <view class="form-label">宝贝的昵称</view>
+      <input class="form-input" placeholder="比如：乐乐" value="{{childName}}" bindinput="onNameInput" maxlength="8"/>
+    </view>
+    <view class="form-group">
+      <view class="form-label">宝贝的生日</view>
+      <picker mode="date" value="{{birthday}}" end="{{today}}" bindchange="onDateChange">
+        <view class="form-input picker">{{birthday || '请选择生日'}}</view>
+      </picker>
+      <view class="form-hint" wx:if="{{ageLabel}}">自动推算：{{ageLabel}}</view>
+    </view>
+  </view>
+
+  <button class="btn btn-primary pop" bindtap="startJourney" disabled="{{!childName}}">
+    ✨ 开始成长之旅
+  </button>
+</view>

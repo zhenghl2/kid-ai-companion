@@ -1,0 +1,6 @@
+.replay-card { text-align:center }
+.replay-header { font-size:38rpx; font-weight:700; margin-bottom:20rpx }
+.replay-summary { font-size:30rpx; color:#3D3D3D; line-height:1.8; margin-bottom:24rpx }
+.replay-items { text-align:left; padding:20rpx 0 }
+.replay-item { font-size:28rpx; padding:12rpx 0; border-bottom:1rpx solid #f0f0f0 }
+.replay-tip { font-size:28rpx; color:#FF9800; padding:16rpx 0; line-height:1.6 }

@@ -1,0 +1,13 @@
+.qiuqiu-area { padding: 40rpx 0 20rpx; display: flex; justify-content: center; }
+.theme-card { text-align: center; }
+.theme-badge { display:inline-block;color:#fff;padding:8rpx 24rpx;border-radius:24rpx;font-size:26rpx;margin-bottom:12rpx }
+.theme-story { font-size:30rpx;color:#3D3D3D;line-height:1.5 }
+.forest-row { display:flex; gap:20rpx }
+.tree-item { flex:1; text-align:center; padding:20rpx 0; border-radius:24rpx; background:#FAFAFA }
+.tree-icon { font-size:48rpx; margin-bottom:8rpx }
+.tree-name { font-size:24rpx; color:#999; margin-bottom:8rpx }
+.leaf { display:inline-block; font-size:22rpx; margin:0 4rpx }
+.leaf.green { color:#51CF66 }
+.leaf.pink { color:#FF80AB }
+.leaf.brown { color:#A1887F }
+.section-title { font-size:32rpx; font-weight:600; margin-bottom:20rpx }

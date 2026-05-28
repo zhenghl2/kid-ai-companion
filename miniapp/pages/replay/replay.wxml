@@ -1,0 +1,14 @@
+<!-- pages/replay/replay.wxml -->
+<view class="container">
+  <view class="card replay-card fade-in">
+    <view class="replay-header">{{themeName}}</view>
+    <view class="replay-summary">{{summary}}</view>
+    <view class="replay-items" wx:if="{{items.length}}">
+      <view class="replay-item" wx:for="{{items}}" wx:key="index">{{item}}</view>
+    </view>
+    <view class="replay-tip">💡 {{tip}}</view>
+  </view>
+  <button class="btn btn-secondary" bindtap="shareReplay" style="margin-top:24rpx">
+    分享给爷爷奶奶
+  </button>
+</view>

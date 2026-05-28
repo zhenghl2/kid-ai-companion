@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/onboard/onboard",
+    "pages/today/today",
+    "pages/play/play",
+    "pages/story/story",
+    "pages/collection/collection",
+    "pages/replay/replay",
+    "pages/parent/parent"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFF8F0",
+    "navigationBarTitleText": "球球的成长森林",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFF8F0"
+  },
+  "tabBar": {
+    "color": "#ADB5BD",
+    "selectedColor": "#FF6B6B",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "今日",
+        "iconPath": "images/tab-today.png",
+        "selectedIconPath": "images/tab-today-active.png"
+      },
+      {
+        "pagePath": "pages/collection/collection",
+        "text": "收藏册",
+        "iconPath": "images/tab-collection.png",
+        "selectedIconPath": "images/tab-collection-active.png"
+      },
+      {
+        "pagePath": "pages/parent/parent",
+        "text": "家长",
+        "iconPath": "images/tab-parent.png",
+        "selectedIconPath": "images/tab-parent-active.png"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

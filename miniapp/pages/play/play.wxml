@@ -1,0 +1,56 @@
+<!-- pages/play/play.wxml -->
+<view class="container">
+  <!-- 顶部：球球 + 进度 -->
+  <view class="play-header">
+    <qiuqiu mood="{{qiuqiuMood}}" size="sm" anim="{{qiuqiuAnim}}"/>
+    <view class="progress-wrap">
+      <view class="progress-bar">
+        <view class="progress-fill" style="width:{{progress}}%"></view>
+      </view>
+      <text class="progress-text">{{current}}/{{total}}</text>
+    </view>
+    <view class="exit-btn" bindtap="confirmExit">✕</view>
+  </view>
+
+  <!-- 恢复模式 -->
+  <block wx:if="{{mode === 'recover'}}">
+    <view class="recovery-card card pop">
+      <view class="recovery-icon">🦖</view>
+      <view class="recovery-title">救救小恐龙！</view>
+      <view class="recovery-text">答对这题，小恐龙就得救啦～</view>
+    </view>
+  </block>
+
+  <!-- 题目区域 -->
+  <view class="story-card card fade-in" wx:if="{{!finished}}">
+    <view class="story-text">{{story}}</view>
+  </view>
+
+  <!-- 选项 -->
+  <view class="options-grid" wx:if="{{!finished && showingOptions}}">
+    <view class="option-btn {{item.state}}" wx:for="{{options}}" wx:key="id"
+      bindtap="selectOption" data-index="{{index}}">
+      <view class="option-label">{{item.label}}</view>
+    </view>
+  </view>
+
+  <!-- 反馈区域 -->
+  <view class="feedback-area" wx:if="{{feedbackText}}">
+    <view class="feedback-text {{feedbackType === 'correct' ? 'correct' : 'gentle'}}">
+      {{feedbackText}}
+    </view>
+    <qiuqiu mood="{{feedbackType === 'correct' ? 'happy' : 'wink'}}" size="sm" anim="jump"/>
+  </view>
+
+  <!-- 完成弹窗 -->
+  <view wx:if="{{finished}}" class="modal-overlay">
+    <view class="modal-content pop">
+      <view class="finish-icon">🎉</view>
+      <view class="modal-title">太棒了！</view>
+      <view class="finish-stars">⭐ × {{score}} / {{total}}</view>
+      <view class="finish-msg">小恐龙安全到家啦！</view>
+      <button class="btn btn-primary" bindtap="goHome" style="margin-top:24rpx">明天继续哦～</button>
+      <button class="btn btn-ghost btn-sm" bindtap="goReplay" style="margin-top:12rpx">看看今天的冒险故事</button>
+    </view>
+  </view>
+</view>

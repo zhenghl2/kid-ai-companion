@@ -1,0 +1,87 @@
+/* 球球的成长森林 — kidyUI 设计系统 */
+
+page {
+  background: #FFF8F0;
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;
+  font-size: 28rpx;
+  color: #3D3D3D;
+  line-height: 1.6;
+}
+
+.container { padding: 24rpx; box-sizing: border-box; min-height: 100vh; }
+
+/* 卡片 */
+.card {
+  background: #FFFFFF;
+  border-radius: 32rpx;
+  padding: 32rpx;
+  margin-bottom: 24rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0,0,0,0.06);
+}
+
+/* 按钮 */
+.btn {
+  width: 100%;
+  padding: 28rpx;
+  border-radius: 48rpx;
+  font-size: 34rpx;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+  border: none;
+  height: auto;
+}
+.btn::after { border: none; }
+.btn-primary { background: #FF6B6B; color: #fff; }
+.btn-primary:active { background: #E55A5A; }
+.btn-secondary { background: #FFF0F0; color: #FF6B6B; }
+.btn-ghost { background: #fff; border: 2rpx solid #E0E0E0; color: #666; }
+.btn-sm { padding: 16rpx 32rpx; font-size: 28rpx; width: auto; display: inline-block; }
+
+/* 标签 */
+.tag { display: inline-block; padding: 6rpx 16rpx; border-radius: 16rpx; font-size: 22rpx; line-height: 1.6; }
+.tag-green  { background: #E8F8E8; color: #51CF66; }
+.tag-yellow { background: #FFF8E1; color: #FFA726; }
+.tag-red    { background: #FFEBEE; color: #EF5350; }
+.tag-blue   { background: #E3F2FD; color: #42A5F5; }
+.tag-purple { background: #F3E5F5; color: #AB47BC; }
+
+/* 弹窗 */
+.modal-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: #fff; border-radius: 40rpx; padding: 48rpx 40rpx;
+  width: 600rpx; text-align: center;
+}
+.modal-title { font-size: 38rpx; font-weight: 700; margin-bottom: 24rpx; }
+
+/* 能量条 */
+.energy-bar-wrap {
+  height: 16rpx; background: #F0F0F0; border-radius: 8rpx; overflow: hidden;
+}
+.energy-bar-fill {
+  height: 100%; border-radius: 8rpx; transition: width 0.6s ease;
+  background: linear-gradient(90deg, #51CF66, #FFD43B, #FF6B6B);
+}
+
+/* 动画 */
+@keyframes bounce {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-20rpx); }
+}
+@keyframes pop {
+  0% { transform: scale(0); opacity: 0; }
+  70% { transform: scale(1.15); }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20rpx); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.bounce { animation: bounce 0.6s ease infinite; }
+.pop { animation: pop 0.4s cubic-bezier(0.34,1.56,0.64,1); }
+.fade-in { animation: fadeIn 0.5s ease; }

@@ -1,0 +1,16 @@
+<!-- pages/story/story.wxml -->
+<view class="container story-page" style="background:linear-gradient(180deg,#1a1a2e,#16213e,#0f3460);min-height:100vh">
+  <view class="story-content fade-in">
+    <view class="story-moon">🌙</view>
+    <view class="story-title">{{title}}</view>
+    <view class="story-paragraphs">
+      <view class="story-p fade-in" wx:for="{{paragraphs}}" wx:key="index" style="animation-delay:{{index*1.5}}s">
+        {{item}}
+      </view>
+    </view>
+    <view class="story-end" wx:if="{{showEnd}}">zzzZZZ</view>
+  </view>
+  <view class="story-footer">
+    <qiuqiu mood="sleepy" size="sm" text="晚安～"/>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+.stat-row { display:flex }
+.stat-item { flex:1; text-align:center }
+.stat-num { font-size:48rpx; font-weight:700; color:#FF6B6B }
+.stat-label { font-size:24rpx; color:#999; margin-top:4rpx }
+.section-title { font-size:32rpx; font-weight:600; margin-bottom:20rpx }
+.setting-row { display:flex; justify-content:space-between; align-items:center; padding:20rpx 0; border-bottom:1rpx solid #f0f0f0; font-size:30rpx }
+.setting-value { color:#FF6B6B }

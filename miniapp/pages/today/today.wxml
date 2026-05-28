@@ -1,0 +1,47 @@
+<!-- pages/today/today.wxml -->
+<view class="container">
+  <!-- 球球 -->
+  <view class="qiuqiu-area fade-in">
+    <qiuqiu mood="happy" size="lg" text="{{greeting}}" anim="wave" costume="{{costume}}"/>
+  </view>
+
+  <!-- 今日主题 -->
+  <view class="card theme-card" style="background:{{themeColor}}15; border:2rpx solid {{themeColor}}30">
+    <view class="theme-badge" style="background:{{themeColor}}">
+      {{themeName}}
+    </view>
+    <view class="theme-story">{{narrativeIntro}}</view>
+  </view>
+
+  <!-- 记忆森林 -->
+  <view class="card forest-card">
+    <view class="section-title">🌳 球球的森林</view>
+    <view class="forest-row">
+      <view class="tree-item" wx:for="{{trees}}" wx:key="name">
+        <view class="tree-icon">{{item.emoji}}</view>
+        <view class="tree-name">{{item.name}}</view>
+        <view class="tree-leaves">
+          <text class="leaf green">🍎{{item.fruits}}</text>
+          <text class="leaf pink">🌸{{item.flowers}}</text>
+          <text class="leaf brown" wx:if="{{item.wilted}}">🍂{{item.wilted}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 能量 -->
+  <view class="energy-bar-wrap" style="margin-bottom:32rpx">
+    <view class="energy-bar-fill" style="width:{{energy}}%"></view>
+  </view>
+  <view style="text-align:center;font-size:24rpx;color:#999;margin-bottom:24rpx">
+    精力 {{energy}}%
+  </view>
+
+  <!-- 开始按钮 -->
+  <button class="btn btn-primary pop" bindtap="startPlay">
+    🎮 开始今天的冒险！
+  </button>
+  <button class="btn btn-ghost" style="margin-top:16rpx" bindtap="goStory">
+    📖 听个故事
+  </button>
+</view>

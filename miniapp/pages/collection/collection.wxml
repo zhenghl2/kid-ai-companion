@@ -1,0 +1,11 @@
+<!-- pages/collection/collection.wxml -->
+<view class="container">
+  <view class="section-title">🏆 球球的收藏册</view>
+  <view class="sticker-grid">
+    <view class="sticker {{item.unlocked ? 'unlocked' : 'locked'}}" wx:for="{{stickers}}" wx:key="id">
+      <view class="sticker-icon">{{item.unlocked ? item.icon : '❓'}}</view>
+      <view class="sticker-name">{{item.unlocked ? item.name : '???'}}</view>
+      <view class="sticker-cond">{{item.condition}}</view>
+    </view>
+  </view>
+</view>
