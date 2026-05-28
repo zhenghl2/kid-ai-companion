@@ -33,7 +33,7 @@ eventsDb.exec(`
   );
   CREATE TABLE IF NOT EXISTS events (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    session_id TEXT REFERENCES sessions(id),
+    session_id TEXT,
     time TEXT DEFAULT (datetime('now')),
     type TEXT,
     subject TEXT,

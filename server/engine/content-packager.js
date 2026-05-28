@@ -155,7 +155,7 @@ function buildQuestionPrompt(knowledge, theme) {
 function fallbackQuestion(subject, knowledge) {
   const k = knowledge || knowledgeGraph.getBySubject(subject)[0]
   if (!k) {
-    return { story:'球球来啦！', options:[{label:'3',correct:true},{label:'2',correct:false},{label:'4',correct:false},{label:'1',correct:false}], correctFeedback:'对啦！⭐', gentleNudge:'差一点点～' }
+    return { story:'球球来啦！', options:[{label:'3',correct:true},{label:'2',correct:false},{label:'4',correct:false},{label:'1',correct:false}], correctFeedback:'对啦！', gentleNudge:'差一点点～' }
   }
 
   // 生成简单 fallback
@@ -177,7 +177,22 @@ function getDistractors(knowledge) {
   if (knowledge.word) return knowledgeGraph.ENGLISH.words.filter(w => w.id !== knowledge.id).slice(0, 3).map(w => w.word)
   if (knowledge.answer !== undefined) {
     const a = knowledge.answer
-    return [Math.max(1, a-1), Math.min(10, a+1), Math.max(1, a-2)].map(String)
+    // 生成 5 以内的唯一干扰项，确保不等于答案且不重复
+    const pool = [1,2,3,4,5].filter(n => n !== a)
+    const result = []
+    for (let i = 0; i < 3 && i < pool.length; i++) {
+      result.push(String(pool[i]))
+    }
+    // 如果不够 3 个，补数字（大于 5 亦可）
+    while (result.length < 3) {
+      const extra = a + result.length + 1
+      if (!result.includes(String(extra)) && extra !== a) {
+        result.push(String(extra))
+      } else {
+        result.push(String(extra + 1))
+      }
+    }
+    return result
   }
   return ['2','4','5']
 }

@@ -1,1 +1,45 @@
-{"description":"球球的成长森林","packOptions":{"ignore":[{"type":"file","value":".eslintrc.js"}]},"setting":{"urlCheck":false,"es6":true,"postcss":true,"minified":true,"compileHotReLoad":false},"compileType":"miniprogram","libVersion":"3.7.0","appid":"wxd7913b8f8682fea6","projectname":"kid-ai-companion","condition":{}}
+{
+  "description": "球球的成长森林",
+  "packOptions": {
+    "ignore": [
+      {
+        "value": ".eslintrc.js",
+        "type": "file"
+      }
+    ],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "compileHotReLoad": false,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "enhance": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "swc": false,
+    "disableSWC": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.7.0",
+  "appid": "wxd7913b8f8682fea6",
+  "projectname": "kid-ai-companion",
+  "condition": {},
+  "simulatorPluginLibVersion": {},
+  "editorSetting": {}
+}
