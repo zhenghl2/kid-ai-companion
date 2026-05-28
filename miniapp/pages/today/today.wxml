@@ -2,7 +2,7 @@
 <view class="container">
   <!-- 球球 -->
   <view class="qiuqiu-area fade-in">
-    <qiuqiu mood="happy" size="lg" text="{{greeting}}" anim="wave" costume="{{costume}}"/>
+    <qiuqiu mood="happy" size="lg" text="{{greeting}}" anim="wave"/>
   </view>
 
   <!-- 今日主题 -->

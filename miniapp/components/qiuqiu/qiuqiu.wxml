@@ -1,8 +1,7 @@
 <!-- components/qiuqiu/qiuqiu.wxml -->
 <view class="qiuqiu-wrap {{size}}">
   <view class="qiuqiu {{animClass}}">
-    <image class="qiuqiu-body" src="/images/qiuqiu/{{mood}}.png" mode="aspectFit"/>
-    <image wx:if="{{costume}}" class="qiuqiu-costume" src="/images/qiuqiu/costume-{{costume}}.png" mode="aspectFit"/>
+    <view class="qiuqiu-face">{{faceEmoji}}</view>
   </view>
   <view wx:if="{{text}}" class="qiuqiu-bubble pop">{{text}}</view>
 </view>

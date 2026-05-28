@@ -1,12 +1,11 @@
 /* components/qiuqiu/qiuqiu.wxss */
 .qiuqiu-wrap { display: flex; flex-direction: column; align-items: center; }
-.qiuqiu { position: relative; transition: transform 0.3s; }
-.qiuqiu-body { width: 100%; height: 100%; }
-.qiuqiu-costume { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.qiuqiu { transition: transform 0.3s; }
+.qiuqiu-face { line-height: 1; }
 
-.sm .qiuqiu { width: 80rpx; height: 80rpx; }
-.md .qiuqiu { width: 160rpx; height: 160rpx; }
-.lg .qiuqiu { width: 240rpx; height: 240rpx; }
+.sm .qiuqiu-face { font-size: 60rpx; }
+.md .qiuqiu-face { font-size: 140rpx; }
+.lg .qiuqiu-face { font-size: 200rpx; }
 
 .qiuqiu-bubble {
   background: #fff; border-radius: 24rpx; padding: 12rpx 20rpx;
