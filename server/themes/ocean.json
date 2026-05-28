@@ -1,0 +1,1 @@
+{"name":"海洋探险","visual":{"background":"ocean","color":"#2196F3","costume":"diver","treeStyle":"coral"},"audio":{"ambient":"ocean_wave","correct":"bubble_pop"},"narrative":{"intro":"今天我们去海底探险！帮助小丑鱼找到回家的路～","quest":"小丑鱼回家","milestones":["找到3颗珍珠","穿过珊瑚森林"],"finale":"小丑鱼安全到家！它送了一颗闪亮的珍珠！"}}

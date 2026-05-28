@@ -1,0 +1,7064 @@
+{
+  "char_爸": [
+    {
+      "story": "哪个是「爸」？",
+      "options": [
+        {
+          "label": "爸",
+          "correct": true
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        },
+        {
+          "label": "家",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「爸」在哪里？",
+      "options": [
+        {
+          "label": "爸",
+          "correct": true
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        },
+        {
+          "label": "口",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「爸」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "爸",
+          "correct": true
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「爸」",
+      "options": [
+        {
+          "label": "爸",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「爸」呀？",
+      "options": [
+        {
+          "label": "爸",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_妈": [
+    {
+      "story": "哪个是「妈」？",
+      "options": [
+        {
+          "label": "妈",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        },
+        {
+          "label": "家",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「妈」在哪里？",
+      "options": [
+        {
+          "label": "妈",
+          "correct": true
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        },
+        {
+          "label": "口",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「妈」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "妈",
+          "correct": true
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「妈」",
+      "options": [
+        {
+          "label": "妈",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「妈」呀？",
+      "options": [
+        {
+          "label": "妈",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_我": [
+    {
+      "story": "哪个是「我」？",
+      "options": [
+        {
+          "label": "我",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "家",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「我」在哪里？",
+      "options": [
+        {
+          "label": "我",
+          "correct": true
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        },
+        {
+          "label": "口",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「我」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "我",
+          "correct": true
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「我」",
+      "options": [
+        {
+          "label": "我",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「我」呀？",
+      "options": [
+        {
+          "label": "我",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_家": [
+    {
+      "story": "哪个是「家」？",
+      "options": [
+        {
+          "label": "家",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「家」在哪里？",
+      "options": [
+        {
+          "label": "家",
+          "correct": true
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        },
+        {
+          "label": "口",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「家」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "家",
+          "correct": true
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「家」",
+      "options": [
+        {
+          "label": "家",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「家」呀？",
+      "options": [
+        {
+          "label": "家",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_大": [
+    {
+      "story": "哪个是「大」？",
+      "options": [
+        {
+          "label": "大",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「大」在哪里？",
+      "options": [
+        {
+          "label": "大",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        },
+        {
+          "label": "口",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「大」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "大",
+          "correct": true
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「大」",
+      "options": [
+        {
+          "label": "大",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「大」呀？",
+      "options": [
+        {
+          "label": "大",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_小": [
+    {
+      "story": "哪个是「小」？",
+      "options": [
+        {
+          "label": "小",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「小」在哪里？",
+      "options": [
+        {
+          "label": "小",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "口",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「小」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "小",
+          "correct": true
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「小」",
+      "options": [
+        {
+          "label": "小",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「小」呀？",
+      "options": [
+        {
+          "label": "小",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_口": [
+    {
+      "story": "哪个是「口」？",
+      "options": [
+        {
+          "label": "口",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「口」在哪里？",
+      "options": [
+        {
+          "label": "口",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「口」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "口",
+          "correct": true
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「口」",
+      "options": [
+        {
+          "label": "口",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「口」呀？",
+      "options": [
+        {
+          "label": "口",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_手": [
+    {
+      "story": "哪个是「手」？",
+      "options": [
+        {
+          "label": "手",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「手」在哪里？",
+      "options": [
+        {
+          "label": "手",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「手」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "手",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「手」",
+      "options": [
+        {
+          "label": "手",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「手」呀？",
+      "options": [
+        {
+          "label": "手",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_目": [
+    {
+      "story": "哪个是「目」？",
+      "options": [
+        {
+          "label": "目",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「目」在哪里？",
+      "options": [
+        {
+          "label": "目",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「目」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "目",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "耳",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「目」",
+      "options": [
+        {
+          "label": "目",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「目」呀？",
+      "options": [
+        {
+          "label": "目",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_耳": [
+    {
+      "story": "哪个是「耳」？",
+      "options": [
+        {
+          "label": "耳",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「耳」在哪里？",
+      "options": [
+        {
+          "label": "耳",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「耳」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "耳",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「耳」",
+      "options": [
+        {
+          "label": "耳",
+          "correct": true
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「耳」呀？",
+      "options": [
+        {
+          "label": "耳",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_足": [
+    {
+      "story": "哪个是「足」？",
+      "options": [
+        {
+          "label": "足",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「足」在哪里？",
+      "options": [
+        {
+          "label": "足",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「足」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "足",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「足」",
+      "options": [
+        {
+          "label": "足",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「足」呀？",
+      "options": [
+        {
+          "label": "足",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_日": [
+    {
+      "story": "哪个是「日」？",
+      "options": [
+        {
+          "label": "日",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「日」在哪里？",
+      "options": [
+        {
+          "label": "日",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「日」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "日",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「日」",
+      "options": [
+        {
+          "label": "日",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "月",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「日」呀？",
+      "options": [
+        {
+          "label": "日",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_月": [
+    {
+      "story": "哪个是「月」？",
+      "options": [
+        {
+          "label": "月",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「月」在哪里？",
+      "options": [
+        {
+          "label": "月",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「月」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "月",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「月」",
+      "options": [
+        {
+          "label": "月",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「月」呀？",
+      "options": [
+        {
+          "label": "月",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_山": [
+    {
+      "story": "哪个是「山」？",
+      "options": [
+        {
+          "label": "山",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「山」在哪里？",
+      "options": [
+        {
+          "label": "山",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「山」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "山",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「山」",
+      "options": [
+        {
+          "label": "山",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「山」呀？",
+      "options": [
+        {
+          "label": "山",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_水": [
+    {
+      "story": "哪个是「水」？",
+      "options": [
+        {
+          "label": "水",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「水」在哪里？",
+      "options": [
+        {
+          "label": "水",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「水」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "水",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「水」",
+      "options": [
+        {
+          "label": "水",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「水」呀？",
+      "options": [
+        {
+          "label": "水",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_火": [
+    {
+      "story": "哪个是「火」？",
+      "options": [
+        {
+          "label": "火",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「火」在哪里？",
+      "options": [
+        {
+          "label": "火",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「火」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "火",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「火」",
+      "options": [
+        {
+          "label": "火",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「火」呀？",
+      "options": [
+        {
+          "label": "火",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_马": [
+    {
+      "story": "哪个是「马」？",
+      "options": [
+        {
+          "label": "马",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「马」在哪里？",
+      "options": [
+        {
+          "label": "马",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「马」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "马",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「马」",
+      "options": [
+        {
+          "label": "马",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「马」呀？",
+      "options": [
+        {
+          "label": "马",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_牛": [
+    {
+      "story": "哪个是「牛」？",
+      "options": [
+        {
+          "label": "牛",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「牛」在哪里？",
+      "options": [
+        {
+          "label": "牛",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「牛」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "牛",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「牛」",
+      "options": [
+        {
+          "label": "牛",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「牛」呀？",
+      "options": [
+        {
+          "label": "牛",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_羊": [
+    {
+      "story": "哪个是「羊」？",
+      "options": [
+        {
+          "label": "羊",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「羊」在哪里？",
+      "options": [
+        {
+          "label": "羊",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「羊」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "羊",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「羊」",
+      "options": [
+        {
+          "label": "羊",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「羊」呀？",
+      "options": [
+        {
+          "label": "羊",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_鸟": [
+    {
+      "story": "哪个是「鸟」？",
+      "options": [
+        {
+          "label": "鸟",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「鸟」在哪里？",
+      "options": [
+        {
+          "label": "鸟",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「鸟」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "鸟",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「鸟」",
+      "options": [
+        {
+          "label": "鸟",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「鸟」呀？",
+      "options": [
+        {
+          "label": "鸟",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_鱼": [
+    {
+      "story": "哪个是「鱼」？",
+      "options": [
+        {
+          "label": "鱼",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「鱼」在哪里？",
+      "options": [
+        {
+          "label": "鱼",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「鱼」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "鱼",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「鱼」",
+      "options": [
+        {
+          "label": "鱼",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「鱼」呀？",
+      "options": [
+        {
+          "label": "鱼",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_猫": [
+    {
+      "story": "哪个是「猫」？",
+      "options": [
+        {
+          "label": "猫",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「猫」在哪里？",
+      "options": [
+        {
+          "label": "猫",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「猫」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "猫",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「猫」",
+      "options": [
+        {
+          "label": "猫",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「猫」呀？",
+      "options": [
+        {
+          "label": "猫",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_米": [
+    {
+      "story": "哪个是「米」？",
+      "options": [
+        {
+          "label": "米",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「米」在哪里？",
+      "options": [
+        {
+          "label": "米",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「米」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "米",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「米」",
+      "options": [
+        {
+          "label": "米",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「米」呀？",
+      "options": [
+        {
+          "label": "米",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_果": [
+    {
+      "story": "哪个是「果」？",
+      "options": [
+        {
+          "label": "果",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「果」在哪里？",
+      "options": [
+        {
+          "label": "果",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「果」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "果",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「果」",
+      "options": [
+        {
+          "label": "果",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「果」呀？",
+      "options": [
+        {
+          "label": "果",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_瓜": [
+    {
+      "story": "哪个是「瓜」？",
+      "options": [
+        {
+          "label": "瓜",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「瓜」在哪里？",
+      "options": [
+        {
+          "label": "瓜",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「瓜」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "瓜",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「瓜」",
+      "options": [
+        {
+          "label": "瓜",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「瓜」呀？",
+      "options": [
+        {
+          "label": "瓜",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_肉": [
+    {
+      "story": "哪个是「肉」？",
+      "options": [
+        {
+          "label": "肉",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「肉」在哪里？",
+      "options": [
+        {
+          "label": "肉",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「肉」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "肉",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「肉」",
+      "options": [
+        {
+          "label": "肉",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「肉」呀？",
+      "options": [
+        {
+          "label": "肉",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_上": [
+    {
+      "story": "哪个是「上」？",
+      "options": [
+        {
+          "label": "上",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「上」在哪里？",
+      "options": [
+        {
+          "label": "上",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「上」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "上",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「上」",
+      "options": [
+        {
+          "label": "上",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「上」呀？",
+      "options": [
+        {
+          "label": "上",
+          "correct": true
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_下": [
+    {
+      "story": "哪个是「下」？",
+      "options": [
+        {
+          "label": "下",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「下」在哪里？",
+      "options": [
+        {
+          "label": "下",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「下」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "下",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「下」",
+      "options": [
+        {
+          "label": "下",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「下」呀？",
+      "options": [
+        {
+          "label": "下",
+          "correct": true
+        },
+        {
+          "label": "上",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_来": [
+    {
+      "story": "哪个是「来」？",
+      "options": [
+        {
+          "label": "来",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「来」在哪里？",
+      "options": [
+        {
+          "label": "来",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「来」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "来",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「来」",
+      "options": [
+        {
+          "label": "来",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「来」呀？",
+      "options": [
+        {
+          "label": "来",
+          "correct": true
+        },
+        {
+          "label": "上",
+          "correct": false
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "去",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "char_去": [
+    {
+      "story": "哪个是「去」？",
+      "options": [
+        {
+          "label": "去",
+          "correct": true
+        },
+        {
+          "label": "爸",
+          "correct": false
+        },
+        {
+          "label": "妈",
+          "correct": false
+        },
+        {
+          "label": "我",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找「去」在哪里？",
+      "options": [
+        {
+          "label": "去",
+          "correct": true
+        },
+        {
+          "label": "家",
+          "correct": false
+        },
+        {
+          "label": "大",
+          "correct": false
+        },
+        {
+          "label": "小",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "「去」躲起来了～找到它！",
+      "options": [
+        {
+          "label": "去",
+          "correct": true
+        },
+        {
+          "label": "口",
+          "correct": false
+        },
+        {
+          "label": "手",
+          "correct": false
+        },
+        {
+          "label": "目",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这个字读什么？找找「去」",
+      "options": [
+        {
+          "label": "去",
+          "correct": true
+        },
+        {
+          "label": "耳",
+          "correct": false
+        },
+        {
+          "label": "足",
+          "correct": false
+        },
+        {
+          "label": "日",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识「去」呀？",
+      "options": [
+        {
+          "label": "去",
+          "correct": true
+        },
+        {
+          "label": "上",
+          "correct": false
+        },
+        {
+          "label": "下",
+          "correct": false
+        },
+        {
+          "label": "来",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "count_3": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "count_4": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "count_5": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        },
+        {
+          "label": "8",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "count_6": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "6",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "6",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "6",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "6",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "9",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "6",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "9",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "count_8": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "8",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "8",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "8",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "8",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "11",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "8",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "11",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "count_10": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "10",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "10",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "10",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "10",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "13",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "10",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "12",
+          "correct": false
+        },
+        {
+          "label": "13",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "add_1+1": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "add_2+1": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "add_1+2": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "add_2+2": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "add_3+1": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "4",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "add_3+2": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "5",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "7",
+          "correct": false
+        },
+        {
+          "label": "8",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "sub_2-1": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "sub_3-1": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "2",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "sub_3-2": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "1",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "3",
+          "correct": false
+        },
+        {
+          "label": "4",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "sub_4-1": [
+    {
+      "story": "答案是多少？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "4",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "数一数，几个？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一共几个呀？",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "算一算～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "8",
+          "correct": false
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "想一想～",
+      "options": [
+        {
+          "label": "3",
+          "correct": true
+        },
+        {
+          "label": "10",
+          "correct": false
+        },
+        {
+          "label": "5",
+          "correct": false
+        },
+        {
+          "label": "6",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_cat": [
+    {
+      "story": "哪个是 cat？",
+      "options": [
+        {
+          "label": "cat",
+          "correct": true
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        },
+        {
+          "label": "bird",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 cat",
+      "options": [
+        {
+          "label": "cat",
+          "correct": true
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        },
+        {
+          "label": "apple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "猫的英文是？",
+      "options": [
+        {
+          "label": "cat",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 cat？",
+      "options": [
+        {
+          "label": "cat",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "cat",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_dog": [
+    {
+      "story": "哪个是 dog？",
+      "options": [
+        {
+          "label": "dog",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        },
+        {
+          "label": "bird",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 dog",
+      "options": [
+        {
+          "label": "dog",
+          "correct": true
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        },
+        {
+          "label": "apple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "狗的英文是？",
+      "options": [
+        {
+          "label": "dog",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 dog？",
+      "options": [
+        {
+          "label": "dog",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "dog",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_fish": [
+    {
+      "story": "哪个是 fish？",
+      "options": [
+        {
+          "label": "fish",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "bird",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 fish",
+      "options": [
+        {
+          "label": "fish",
+          "correct": true
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        },
+        {
+          "label": "apple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "鱼的英文是？",
+      "options": [
+        {
+          "label": "fish",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 fish？",
+      "options": [
+        {
+          "label": "fish",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "fish",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_bird": [
+    {
+      "story": "哪个是 bird？",
+      "options": [
+        {
+          "label": "bird",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 bird",
+      "options": [
+        {
+          "label": "bird",
+          "correct": true
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        },
+        {
+          "label": "apple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "鸟的英文是？",
+      "options": [
+        {
+          "label": "bird",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 bird？",
+      "options": [
+        {
+          "label": "bird",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "bird",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_pig": [
+    {
+      "story": "哪个是 pig？",
+      "options": [
+        {
+          "label": "pig",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 pig",
+      "options": [
+        {
+          "label": "pig",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        },
+        {
+          "label": "apple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "猪的英文是？",
+      "options": [
+        {
+          "label": "pig",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 pig？",
+      "options": [
+        {
+          "label": "pig",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "pig",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_cow": [
+    {
+      "story": "哪个是 cow？",
+      "options": [
+        {
+          "label": "cow",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 cow",
+      "options": [
+        {
+          "label": "cow",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "apple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "牛的英文是？",
+      "options": [
+        {
+          "label": "cow",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 cow？",
+      "options": [
+        {
+          "label": "cow",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "cow",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_apple": [
+    {
+      "story": "哪个是 apple？",
+      "options": [
+        {
+          "label": "apple",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 apple",
+      "options": [
+        {
+          "label": "apple",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "苹果的英文是？",
+      "options": [
+        {
+          "label": "apple",
+          "correct": true
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 apple？",
+      "options": [
+        {
+          "label": "apple",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "apple",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_banana": [
+    {
+      "story": "哪个是 banana？",
+      "options": [
+        {
+          "label": "banana",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 banana",
+      "options": [
+        {
+          "label": "banana",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "香蕉的英文是？",
+      "options": [
+        {
+          "label": "banana",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 banana？",
+      "options": [
+        {
+          "label": "banana",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "banana",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_orange": [
+    {
+      "story": "哪个是 orange？",
+      "options": [
+        {
+          "label": "orange",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 orange",
+      "options": [
+        {
+          "label": "orange",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "橙子的英文是？",
+      "options": [
+        {
+          "label": "orange",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "grape",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 orange？",
+      "options": [
+        {
+          "label": "orange",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "orange",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_grape": [
+    {
+      "story": "哪个是 grape？",
+      "options": [
+        {
+          "label": "grape",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 grape",
+      "options": [
+        {
+          "label": "grape",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "葡萄的英文是？",
+      "options": [
+        {
+          "label": "grape",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 grape？",
+      "options": [
+        {
+          "label": "grape",
+          "correct": true
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "grape",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_red": [
+    {
+      "story": "哪个是 red？",
+      "options": [
+        {
+          "label": "red",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 red",
+      "options": [
+        {
+          "label": "red",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "红色的英文是？",
+      "options": [
+        {
+          "label": "red",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 red？",
+      "options": [
+        {
+          "label": "red",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "red",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_blue": [
+    {
+      "story": "哪个是 blue？",
+      "options": [
+        {
+          "label": "blue",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 blue",
+      "options": [
+        {
+          "label": "blue",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "蓝色的英文是？",
+      "options": [
+        {
+          "label": "blue",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 blue？",
+      "options": [
+        {
+          "label": "blue",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "green",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "blue",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_green": [
+    {
+      "story": "哪个是 green？",
+      "options": [
+        {
+          "label": "green",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 green",
+      "options": [
+        {
+          "label": "green",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "绿色的英文是？",
+      "options": [
+        {
+          "label": "green",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 green？",
+      "options": [
+        {
+          "label": "green",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "green",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_yellow": [
+    {
+      "story": "哪个是 yellow？",
+      "options": [
+        {
+          "label": "yellow",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 yellow",
+      "options": [
+        {
+          "label": "yellow",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "黄色的英文是？",
+      "options": [
+        {
+          "label": "yellow",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 yellow？",
+      "options": [
+        {
+          "label": "yellow",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "yellow",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_one": [
+    {
+      "story": "哪个是 one？",
+      "options": [
+        {
+          "label": "one",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 one",
+      "options": [
+        {
+          "label": "one",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "一的英文是？",
+      "options": [
+        {
+          "label": "one",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 one？",
+      "options": [
+        {
+          "label": "one",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "one",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_two": [
+    {
+      "story": "哪个是 two？",
+      "options": [
+        {
+          "label": "two",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 two",
+      "options": [
+        {
+          "label": "two",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "二的英文是？",
+      "options": [
+        {
+          "label": "two",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 two？",
+      "options": [
+        {
+          "label": "two",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "two",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_three": [
+    {
+      "story": "哪个是 three？",
+      "options": [
+        {
+          "label": "three",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 three",
+      "options": [
+        {
+          "label": "three",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "三的英文是？",
+      "options": [
+        {
+          "label": "three",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 three？",
+      "options": [
+        {
+          "label": "three",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "three",
+          "correct": true
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_mum": [
+    {
+      "story": "哪个是 mum？",
+      "options": [
+        {
+          "label": "mum",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 mum",
+      "options": [
+        {
+          "label": "mum",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "妈妈的英文是？",
+      "options": [
+        {
+          "label": "mum",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 mum？",
+      "options": [
+        {
+          "label": "mum",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "mum",
+          "correct": true
+        },
+        {
+          "label": "three",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_dad": [
+    {
+      "story": "哪个是 dad？",
+      "options": [
+        {
+          "label": "dad",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 dad",
+      "options": [
+        {
+          "label": "dad",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "爸爸的英文是？",
+      "options": [
+        {
+          "label": "dad",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 dad？",
+      "options": [
+        {
+          "label": "dad",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "dad",
+          "correct": true
+        },
+        {
+          "label": "three",
+          "correct": false
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "baby",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "word_baby": [
+    {
+      "story": "哪个是 baby？",
+      "options": [
+        {
+          "label": "baby",
+          "correct": true
+        },
+        {
+          "label": "cat",
+          "correct": false
+        },
+        {
+          "label": "dog",
+          "correct": false
+        },
+        {
+          "label": "fish",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "找一找 baby",
+      "options": [
+        {
+          "label": "baby",
+          "correct": true
+        },
+        {
+          "label": "bird",
+          "correct": false
+        },
+        {
+          "label": "pig",
+          "correct": false
+        },
+        {
+          "label": "cow",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "宝宝的英文是？",
+      "options": [
+        {
+          "label": "baby",
+          "correct": true
+        },
+        {
+          "label": "apple",
+          "correct": false
+        },
+        {
+          "label": "banana",
+          "correct": false
+        },
+        {
+          "label": "orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "谁认识 baby？",
+      "options": [
+        {
+          "label": "baby",
+          "correct": true
+        },
+        {
+          "label": "grape",
+          "correct": false
+        },
+        {
+          "label": "red",
+          "correct": false
+        },
+        {
+          "label": "blue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "story": "这是什么？（英文）",
+      "options": [
+        {
+          "label": "baby",
+          "correct": true
+        },
+        {
+          "label": "three",
+          "correct": false
+        },
+        {
+          "label": "mum",
+          "correct": false
+        },
+        {
+          "label": "dad",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

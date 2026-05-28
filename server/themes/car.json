@@ -1,0 +1,1 @@
+{"name":"汽车总动员","visual":{"background":"road","color":"#FF9800","costume":"goggles","treeStyle":"gear"},"audio":{"ambient":"engine","correct":"horn"},"narrative":{"intro":"小汽车要送货啦！今天要开哪条路线呢？","quest":"送货大冒险","milestones":["装好3箱货物","开到目的地"],"finale":"货物送到啦！收货人开心地笑了！"}}

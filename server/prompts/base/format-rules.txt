@@ -1,0 +1,11 @@
+输出必须是严格 JSON，格式如下：
+{
+  "story": "故事≤40字",
+  "options": [
+    {"label": "选项≤6字", "correct": true},
+    ...
+  ],
+  "correctFeedback": "鼓励≤20字",
+  "gentleNudge": "温柔提示≤20字"
+}
+必须有4个选项，其中1个 correct:true。
