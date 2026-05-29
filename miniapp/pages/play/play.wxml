@@ -1,8 +1,7 @@
 <!-- pages/play/play.wxml -->
-<view class="container">
-  <!-- 顶部：球球 + 进度 -->
-  <view class="play-header">
-    <qiuqiu mood="{{qiuqiuMood}}" size="sm" anim="{{qiuqiuAnim}}"/>
+<view class="container play-container">
+  <!-- 顶部：进度 + 退出 -->
+  <view class="play-top">
     <view class="progress-wrap">
       <view class="progress-bar"><view class="progress-fill" style="width:{{progress}}%"></view></view>
       <text class="progress-text">{{current}}/{{total}}</text>
@@ -10,52 +9,83 @@
     <view class="exit-btn" bindtap="confirmExit">✕</view>
   </view>
 
-  <!-- 恢复模式 -->
-  <block wx:if="{{mode === 'recover'}}">
-    <view class="recovery-card card pop">
-      <view class="recovery-icon">🦖</view>
-      <view class="recovery-title">救救小恐龙！</view>
-      <view class="recovery-text">答对这题，小恐龙就得救啦～</view>
+  <!-- ====== 教学卡片 ====== -->
+  <view class="teach-area" wx:if="{{phase==='teach'}}">
+    <!-- 语文 -->
+    <block wx:if="{{subject==='chinese'}}">
+      <view class="teach-card-zh pop">
+        <view class="teach-illustration">{{teachEmoji}}</view>
+        <view class="teach-char">{{teachMain}}</view>
+        <view class="teach-pinyin">{{teachSub}}</view>
+        <view class="teach-desc">认识这个字</view>
+      </view>
+    </block>
+    <!-- 数学 -->
+    <block wx:if="{{subject==='math'}}">
+      <view class="teach-card-math pop">
+        <view class="teach-story-visual">
+          <text class="math-object" wx:for="{{mathObjects}}" wx:key="*this">{{item}}</text>
+        </view>
+        <view class="teach-story-text">{{teachMain}}</view>
+        <view class="teach-desc">用手指点一点，数一数</view>
+      </view>
+    </block>
+    <!-- 英语 -->
+    <block wx:if="{{subject==='english'}}">
+      <view class="teach-card-en pop">
+        <view class="teach-illustration">{{teachEmoji}}</view>
+        <view class="teach-word">{{teachMain}}</view>
+        <view class="teach-pinyin">{{teachSub}}</view>
+        <view class="teach-desc">听一听，这个怎么读？</view>
+      </view>
+    </block>
+    
+    <view class="teach-actions">
+      <button class="teach-btn replay-btn" bindtap="replayTTS">🔊 再听一遍</button>
+      <button class="teach-btn go-btn" bindtap="startQuiz">👆 我记住了</button>
     </view>
-  </block>
-
-  <!-- 教学环节 -->
-  <view class="teach-card card fade-in" wx:if="{{phase === 'teach'}}">
-    <view class="teach-emoji">{{teachEmoji}}</view>
-    <view class="teach-main">{{teachMain}}</view>
-    <view class="teach-sub" wx:if="{{teachSub}}">{{teachSub}}</view>
-    <view class="teach-hint">🔊 球球正在读给你听...</view>
   </view>
 
-  <!-- 答题环节 -->
-  <block wx:if="{{phase === 'quiz'}}">
-    <view class="story-card card fade-in">
-      <view class="story-text">{{story}}</view>
-      <view class="tts-replay" bindtap="replayTTS">🔊 再读一遍</view>
-    </view>
-    <view class="options-grid">
-      <view class="option-btn {{item.state}}" wx:for="{{options}}" wx:key="id"
+  <!-- ====== 答题卡片 ====== -->
+  <view class="quiz-area fade-in" wx:if="{{phase==='quiz'}}">
+    <view class="quiz-question">{{story}}</view>
+    
+    <!-- 语文/英语：文字选项 -->
+    <view class="options-vertical" wx:if="{{subject!=='math'}}">
+      <view class="opt-btn {{item.state}}" wx:for="{{options}}" wx:key="id"
         bindtap="selectOption" data-index="{{index}}">
-        <view class="option-label">{{item.label}}</view>
+        <text class="opt-text">{{item.label}}</text>
       </view>
     </view>
-  </block>
 
-  <!-- 反馈 -->
-  <view class="feedback-area" wx:if="{{feedbackText}}">
-    <view class="feedback-text {{feedbackType === 'correct' ? 'correct' : 'gentle'}}">{{feedbackText}}</view>
-    <qiuqiu mood="{{feedbackType === 'correct' ? 'happy' : 'wink'}}" size="sm" anim="jump"/>
+    <!-- 数学：数字选项 -->
+    <view class="options-grid" wx:if="{{subject==='math'}}">
+      <view class="opt-num {{item.state}}" wx:for="{{options}}" wx:key="id"
+        bindtap="selectOption" data-index="{{index}}">
+        <text class="opt-num-text">{{item.label}}</text>
+      </view>
+    </view>
+
+    <view class="quiz-replay" bindtap="replayTTS">🔊</view>
   </view>
 
-  <!-- 完成弹窗 -->
+  <!-- ====== 反馈 ====== -->
+  <view class="feedback-area pop" wx:if="{{feedbackText}}">
+    <qiuqiu mood="{{feedbackType==='correct'?'happy':'encourage'}}" size="md" anim="{{feedbackType==='correct'?'jump':'wave'}}"/>
+    <view class="feedback-text {{feedbackType}}">{{feedbackText}}</view>
+  </view>
+
+  <!-- ====== 完成 ====== -->
   <view wx:if="{{finished}}" class="modal-overlay">
     <view class="modal-content pop">
       <view class="finish-icon">🎉</view>
       <view class="modal-title">太棒了！</view>
-      <view class="finish-stars">⭐ × {{score}} / {{total}}</view>
+      <view class="finish-stars">
+        <text wx:for="{{stars}}" wx:key="*this">⭐</text>
+      </view>
       <view class="finish-msg">今天学会了{{learnedCount}}个新知识！</view>
-      <button class="btn btn-primary" bindtap="goHome" style="margin-top:24rpx">明天继续哦～</button>
-      <button class="btn btn-ghost btn-sm" bindtap="goReplay" style="margin-top:12rpx">看看今天的冒险故事</button>
+      <button class="btn btn-primary" bindtap="goHome">明天继续哦～</button>
+      <button class="btn btn-ghost btn-sm" bindtap="goReplay">看冒险故事</button>
     </view>
   </view>
 </view>
